@@ -81,7 +81,7 @@ Analyzer: Uses spaCy/OpenAI to extract and score.
 
 Database: Stores data for analytics and user history.
 
-🔍 How It Works
+## 🔍 How It Works
 Upload Resume: User uploads resume (PDF/DOCX).
 
 Pre-processing: Resume is parsed using Python.
@@ -108,7 +108,7 @@ Frontend View:
 
 Dashboard with resume score, suggestions, and matched jobs.
 
-🧪 Installation
+## 🧪 Installation
 Prerequisites
 Node.js and npm
 
@@ -118,7 +118,7 @@ MongoDB
 
 Git
 
-Setup Instructions
+## Setup Instructions
 
 # Clone the repository
 git clone https://github.com/yourusername/ai-resume-analyzer.git
@@ -139,7 +139,7 @@ source env/bin/activate  # or env\Scripts\activate on Windows
 pip install -r requirements.txt
 
 
-Run Servers
+## Run Servers
 
 # Start React frontend
 cd client
@@ -154,7 +154,7 @@ cd ../analyzer
 python test_resume.py
 
 
-💡 Future Enhancements
+## 💡 Future Enhancements
 Multi-language resume analysis
 
 ATS (Applicant Tracking System) scoring simulation
@@ -167,7 +167,7 @@ User authentication with JWT
 
 ChatGPT-powered chatbot for resume tips
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Made with ❤️ by Lakshmi
